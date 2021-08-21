@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="a.css">
+    </head>
+    <body>
+        <script>
+            function display() {
+            document.write("<h1>" + document.getElementById("username").value + "'s resume: </h1> <br> <h2> i am involved/interested in <br>" + document.getElementById("exp").value + ".</h2> <hr> <h2> a bit about myself:</h2> <p>" + document.getElementById("about").value + "<hr> <h2>for collaboration, my time-zone is <br>" + document.getElementById("timezone").value + "</h2> <hr> <h2>My activity is " + document.getElementById("activity").value + "/10 </h2> <hr> <h2> I am best at: </h2> <br> <p>" + document.getElementById("best").value + "<hr> <h3> created with Toastys Resume Maker by ToastersUnited </h3>");
+            }
+        </script>
+        <h1 class="instruction">Toasty's Scratch Resume Maker!</h1>
+        <a href="https://ocular.jeffalo.net"><button>Check out OCULAR, the forum search tool by jeffalo!</button></a>
+        <br>
+        <a href="https://scratch.mit.edu/users/ToastersUnited"><button>See my scratch profile.</button></a>
+        <br>
+        <h3>Tip! You can use TAB to go to the next input</h3>
+        <h2 class="instruction">Please enter your USERNAME here!</h2>
+        <input id="username">
+        <h2 class="instruction">Enter the collaborations, shops, roleplays or large scale projects your are part of.</h2>
+        <input id="exp">
+        <h2 class="instruction">What is your time zone?</h2>
+        <input id="timezone">
+        <h2 class="instruction">Out of 1-10, what is your activity? (1 being bareley ever on, 10 being active a lot.)</h2>
+        <input id="activity">
+        <h2 class="instruction">please enter a bit about yourself here.</h2>
+        <textarea id="about">
+        </textarea>
+        <h2 class="instruction">What are you best at on scratch?</h2>
+        <input id="best">
+        <h2 class="instruction">Thanks for creating your resume. Click the button below to recieve it.</h2>
+        <button onclick="display()">Click here to create your resume.</button>
+        <hr>
+        <h2 class="instruction">what can this be used for?</h2>
+        <br>
+        <p class="instruction">Joining a collaboration? All you need to give them is your resume, and your done! By putting iton your profile,
+            <br>
+            you might find more people on scratch like you, due to them seeing your resume.
+            <br>
+            for putting your resume on forums use <a href="https://cubeupload.com/">cubeupload</a> or other image hosting sites.
+        </p>
+        <hr>
+        <p>Made by <a href="https://nill2021.github.io/lol/">Toasty</a>, for use with <a href="scratch.mit.edu">Scratch.</a> Toasty's Scratch Resume Maker is not associated
+        <br>
+    with the scratch team in any way.</p>
+    </body>
+</html>
