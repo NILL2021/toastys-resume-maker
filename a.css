@@ -1,0 +1,29 @@
+* {
+    font-family: Agency FB;
+
+}
+
+.cntr {
+    text-align: center;
+}
+
+.instruction {
+    text-align: left;
+}
+
+button {
+    transition: 0.5s;
+    width: auto;
+    height: auto;
+    -moz-box-align: center;
+}
+
+button {
+    transition: 0.5s;
+    font-size: 40;
+}
+
+input {
+    text-align: center;
+}
+
