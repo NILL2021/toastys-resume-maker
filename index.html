@@ -6,7 +6,7 @@
     <body>
         <script>
             function display() {
-            document.write("<h1>" + document.getElementById("username").value + "'s resume: </h1> <br> <h2> i am involved/interested in <br>" + document.getElementById("exp").value + ".</h2> <hr> <h2> a bit about myself:</h2> <p>" + document.getElementById("about").value + "<hr> <h2>for collaboration, my time-zone is <br>" + document.getElementById("timezone").value + "</h2> <hr> <h2>My activity is " + document.getElementById("activity").value + "/10 </h2> <hr> <h2> I am best at: </h2> <br> <p>" + document.getElementById("best").value + "<hr> <h3> created with Toastys Resume Maker by ToastersUnited </h3>");
+            document.write("<p>" + "Name: " + document.getElementById("username").value + " </p>  <p> A bit about myself: " + document.getElementById("about").value + "</p>  <p> Timezone: </p>" + document.getElementById("timezone").value + " <p>Activity: " + document.getElementById("activity").value + "/10 </p>  <p>Job: " + document.getElementById("best").value + " </p>  <p> Proof of work: </p> <p>" + document.getElementById("exp").value + " <p> <hr> created with Toastys Resume Maker by ToastersUnited </p>");
             }
         </script>
         <h1 class="instruction">Toasty's Scratch Resume Maker!</h1>
@@ -18,7 +18,7 @@
         <h3>Tip! You can use TAB to go to the next input</h3>
         <h2 class="instruction">Please enter your USERNAME here!</h2>
         <input id="username">
-        <h2 class="instruction">Enter the collaborations, shops, roleplays or large scale projects your are part of.</h2>
+        <h2 class="instruction">Enter projects that prove your worth.</h2>
         <input id="exp">
         <h2 class="instruction">What is your time zone?</h2>
         <input id="timezone">
